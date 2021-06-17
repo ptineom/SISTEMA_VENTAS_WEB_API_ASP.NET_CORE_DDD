@@ -1,0 +1,7 @@
+﻿Instalar nugget:
+1.- Automapper
+
+Referencias:
+1.- SistemaVentas.Aplication.DTO
+2.- SistemaVentas.Domain.Services
+3.- SistemaVentas.Domain.Entites

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVentas.Aplication.Dto\SistemaVentas.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Common.Helpers\SistemaVentas.Cross.Utils.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Domain.Entities\SistemaVentas.Domain.Entities.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Domain.Services\SistemaVentas.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>

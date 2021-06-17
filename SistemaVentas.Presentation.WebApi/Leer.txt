@@ -1,0 +1,13 @@
+﻿Instalar nugget:
+1.- Automapper
+
+Referencias:
+1.- SistemaVentas.Aplication.DTO
+2.- SistemaVentas.Aplication.Services
+
+Referencias para Ioc:
+1.- SistemaVentas.Domain.Services
+2.- SistemaVentas.Infrastructure.Repository.Services
+
+Más referencias:
+1.- SistemaVentas.Common.Helpers

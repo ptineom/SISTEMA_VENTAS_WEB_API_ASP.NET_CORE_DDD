@@ -1,0 +1,3 @@
+﻿Referencias:
+1.- SistemaVentas.Domain.Entities
+2.- SistemaVentas.Domain.RepositoriesContracts

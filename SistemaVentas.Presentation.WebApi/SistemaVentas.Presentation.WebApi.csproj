@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>a1b96b57-5df0-4696-acbf-d45e1182d0cb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVentas.Aplication.Dto\SistemaVentas.Aplication.DTO.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Aplication.Services\SistemaVentas.Aplication.Services.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Common.Helpers\SistemaVentas.Cross.Utils.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Domain.Services\SistemaVentas.Domain.Services.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Infrastructure.Repository\SistemaVentas.Infrastructure.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

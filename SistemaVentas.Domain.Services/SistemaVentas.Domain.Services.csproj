@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVentas.Common.Helpers\SistemaVentas.Cross.Utils.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Domain.Entities\SistemaVentas.Domain.Entities.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Repositories\SistemaVentas.Domain.RepositoriesContracts.csproj" />
+  </ItemGroup>
+
+</Project>
